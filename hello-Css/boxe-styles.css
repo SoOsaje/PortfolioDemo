@@ -1,0 +1,20 @@
+h1, p {
+    background-color: honeydew;
+}
+
+em, strong {
+    background-color: beige;
+    display: inline;
+}
+
+h1 {
+    padding: 50px;
+    border: 1px solid plum;
+    border-bottom: 1px solid plum;
+}
+
+p {
+    padding: 20px 20px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
