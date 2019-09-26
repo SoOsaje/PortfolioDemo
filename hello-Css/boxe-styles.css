@@ -18,3 +18,14 @@ p {
     margin-bottom: 50px;
     margin-top: 25px;
 }
+
+div {
+    color: black;
+    background-color: deeppink;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid salmon;
+    border-radius: 100px;
+    width: 200px;
+}
