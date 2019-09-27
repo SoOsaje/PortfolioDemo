@@ -28,4 +28,5 @@ div {
     border: 2px solid salmon;
     border-radius: 100px;
     width: 200px;
+    box-sizing: border-box;
 }
