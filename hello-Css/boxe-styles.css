@@ -1,5 +1,12 @@
-h1, p {
-    background-color: honeydew;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: salmon;
+    color: whitesmoke;
 }
 
 em, strong {
@@ -20,8 +27,8 @@ p {
 }
 
 div {
-    color: black;
-    background-color: deeppink;
+    color: whitesmoke;
+    background-color: salmon;
     font-weight: bold;
     padding: 20px;
     text-align: center;
@@ -29,4 +36,9 @@ div {
     border-radius: 100px;
     width: 200px;
     box-sizing: border-box;
+    margin: 20px auto;
+}
+
+body {
+    text-align: center;
 }
