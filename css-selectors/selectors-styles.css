@@ -1,0 +1,22 @@
+.synopsis {
+    color: coral;
+    font-style: italic;
+}
+
+.button {
+    color: antiquewhite;
+    background-color: coral;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid coral;
+    border-radius: 200px;
+
+    width: 200px;
+    margin: 20px auto;
+}
+
+.page {
+    width: 500px;
+    margin: 0 auto;
+}
