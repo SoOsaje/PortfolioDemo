@@ -20,3 +20,25 @@
     width: 500px;
     margin: 0 auto;
 }
+
+a:link {
+    color: coral;
+    text-decoration: none;
+}
+
+a:visited {
+    color: brown;
+}
+
+a:hover {
+    color: chocolate;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited:hover {
+    color: orange;
+}
