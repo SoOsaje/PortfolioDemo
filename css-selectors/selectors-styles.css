@@ -21,8 +21,13 @@
     margin: 0 auto;
 }
 
+.call-to-action {
+    font-style: italic;
+    background-color: coral;
+}
+
 a:link {
-    color: coral;
+    color: aquamarine;
     text-decoration: none;
 }
 
