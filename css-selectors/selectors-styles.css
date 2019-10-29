@@ -1,14 +1,16 @@
-.synopsis {
+p:first-of-type {
     color: aquamarine;
     font-style: italic;
 }
 
-.button {
+.button:link, 
+.button:visited {
+    display: block;
+    text-decoration: none;
+    
     color: antiquewhite;
-    background-color: coral
+    background-color: coral;
     
-    
-    ;
     font-weight: bold;
     padding: 20px;
     text-align: center;
@@ -20,6 +22,20 @@
     margin: 20px auto;
 }
 
+.button:hover,
+.button:visited:hover {
+    color: wheat;
+    background-color: cadetblue;
+    border: 2px solid cadetblue;
+}
+
+.button:active,
+.button:visited:active {
+    color: wheat;
+    background-color: darkolivegreen;
+    border: 2px solid darkolivegreen;
+} 
+
 .page {
     width: 500px;
     margin: 0 auto;
@@ -28,6 +44,10 @@
 .call-to-action {
     font-style: italic;
     background-color: coral;
+}
+
+p:last-of-type {
+    margin-bottom: 50px;
 }
 
 a:link {
