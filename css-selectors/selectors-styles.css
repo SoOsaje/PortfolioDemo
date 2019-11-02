@@ -41,6 +41,11 @@ p:first-of-type {
     margin: 0 auto;
 }
 
+.page > p:first-of-type {
+    color: aqua;
+    font-style: italic;
+}
+
 .call-to-action {
     font-style: italic;
     background-color: coral;
