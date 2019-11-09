@@ -8,6 +8,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "PortfolioDemo"
+		"liveServer.settings.multiRootWorkspaceName": "PortfolioDemo",
+		"liveServer.settings.port": 5501
 	}
 }
