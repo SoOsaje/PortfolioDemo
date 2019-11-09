@@ -1,0 +1,32 @@
+body {
+    background-color: #fdb9c8;
+    color: grey;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 100px;
+}
+ p {
+     text-align: center;
+    }
+
+
+button {
+    text-align: center;
+    color: #fdb9c8;
+    background-color: aliceblue;
+    width: 200px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 100px;
+    position: absolute;
+    left: 150px;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
