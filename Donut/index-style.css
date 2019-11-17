@@ -73,3 +73,23 @@ body {
     background: #fff;
     color: #000;
 }
+
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+
+.feature-title {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.features img {
+    border-radius: 50%;   
+    margin-bottom: 16px;
+}
+
