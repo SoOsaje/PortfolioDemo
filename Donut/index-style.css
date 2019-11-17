@@ -95,7 +95,8 @@ body {
     transition: 0.5s ease;
     backface-visibility: hidden;
 }
-
+.middle2,
+.middle3,
 .middle {
     transition: 0.5s ease;
     opacity: 0;
@@ -106,14 +107,20 @@ body {
   -ms-transform: translate(-50%, -50%)
 }
 
+.me:hover #profile,
+.muff:hover #muffin,
 .ice:hover #smiley {
     opacity: 0.3;
 }
 
+.me:hover .middle3,
+.muff:hover .middle2,
 .ice:hover .middle{
     opacity:1;
 }
 
+.textme,
+.textmuff,
 .text {
     color: #333;
     font-size: 30px;
