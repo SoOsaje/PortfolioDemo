@@ -5,7 +5,8 @@ body {
 }
 
 .navbar {
-    background: #fb9da7;
+    background: transparent;
+    background-color: transparent;
 }
 
 .nav-link,
