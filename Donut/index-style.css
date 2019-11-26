@@ -69,17 +69,10 @@ body {
 	font-weight:400;
 	display:inline-block;
 	border-radius:50px;
-	text-transform:uppercase;
 	line-height:25px;
 	margin-bottom:20px;
-	transition:all 0.3s ease-in-out;
-    -webkit-transition:all 0.3s ease-in-out;
-    animation-delay: 1s;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-name: fadeInUp;
-    background-attachment: scroll;
 }
+
 
 .link:hover {
 	text-decoration:none;
