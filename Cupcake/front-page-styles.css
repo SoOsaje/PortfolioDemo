@@ -88,10 +88,35 @@ body {
 	color:#fff !important;
 }
 
-* { box-sizing: border-box; }
-
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
+
+.gallery {
+   margin-top: 20px;
+   margin-left: 5px;
+}
+
+.gallery:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.pic {
+    width: 160px;
+    height: 120px;
+    float: none;
+    background: palevioletred;
+    border: 2px solid purple;
+}
+
+
+.pic-w2 {width: 320px;}
+.pic-w3 {width: 520px;}
+.pic-w4 {width: 780px;}
+
+.pic-h2 {height: 200px;}
+.pic-h3 {height: 260px;}
+.pic-h4 {height: 360px;}
